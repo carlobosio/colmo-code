@@ -11,7 +11,6 @@ Build hierarchical docker image, to avoid installing everything over and over ag
 ```
 docker build -t funsearch-base:latest -f Dockerfile.base .
 docker build . -t funsearch:latest
-
 ```
 
 #### Run the docker image
