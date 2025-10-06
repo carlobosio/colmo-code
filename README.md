@@ -2,7 +2,7 @@
 This repo is associated to the paper [Combining Large Language Models and Gradient-Free Optimization for Automatic Control Policy Synthesis](https://arxiv.org/abs/2510.00373).
 There is a wandb setup to have an intuitive logging of what is going on (best scores achieved, best islands...). This can be disregarded by selecting the option to not track the experiment from command line.
 We provide a Docker container to make it easier to reproduce results.
-The `tests/` folder contains scripts to visualize what the different tasks are doing when in closed-loop with a policy.
+The `dm_control_tests/` folder contains scripts to visualize what the different tasks are doing when in closed-loop with a policy. There are many tasks available, we have not tried them all.
 
 ## Docker
 Build hierarchical docker image, to avoid installing everything over and over again.
