@@ -23,7 +23,6 @@ RUN pip uninstall  --yes  transformers
 RUN pip install transformers
 
 RUN apt update && apt install -y nano
-COPY examples ./examples
 COPY examples_ng ./examples_ng
 # COPY backups ./backups
 
